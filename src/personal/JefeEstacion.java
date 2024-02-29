@@ -10,4 +10,13 @@ public class JefeEstacion {
         this.DNI = DNI;
         this.nombramiento = nombramiento;
     }
+
+    @Override
+    public String toString() {
+        return "JefeEstacion{" +
+                "nombre='" + nombre + '\'' +
+                ", DNI='" + DNI + '\'' +
+                ", nombramiento=" + nombramiento +
+                '}';
+    }
 }

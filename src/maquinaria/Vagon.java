@@ -12,4 +12,14 @@ public class Vagon{
         this.cargaActual = cargaActual;
         this.tipoMercancia = tipoMercancia;
     }
+
+    @Override
+    public String toString() {
+        return "Vagon{" +
+                "identificador=" + identificador +
+                ", cargaMax=" + cargaMax +
+                ", cargaActual=" + cargaActual +
+                ", tipoMercancia='" + tipoMercancia + '\'' +
+                '}';
+    }
 }

@@ -15,4 +15,14 @@ public class Locomotora {
         this.anioFabricacion = anioFabricacion;
         this.mecanicoEncargado = mecanicoEncargado;
     }
+
+    @Override
+    public String toString() {
+        return "Locomotora{" +
+                "matricula='" + matricula + '\'' +
+                ", potencia=" + potencia +
+                ", anioFabricacion=" + anioFabricacion +
+                ", mecanicoEncargado=" + mecanicoEncargado +
+                '}';
+    }
 }
