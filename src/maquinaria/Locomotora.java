@@ -9,9 +9,6 @@ public class Locomotora {
 
     Mecanico mecanicoEncargado;
 
-    public Locomotora() {
-    }
-
     public Locomotora(String matricula, double potencia, int anioFabricacion, Mecanico mecanicoEncargado) {
         this.matricula = matricula;
         this.potencia = potencia;

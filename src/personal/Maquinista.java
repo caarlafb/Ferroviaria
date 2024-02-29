@@ -6,9 +6,6 @@ public class Maquinista {
     double saldo;
     String rango;
 
-    public Maquinista() {
-    }
-
     public Maquinista(String nombre, String DNI, double saldo, String rango) {
         this.nombre = nombre;
         this.DNI = DNI;
